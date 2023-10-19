@@ -1,0 +1,6 @@
+monica = int(input())
+f1 = int(input())
+f2 = int(input())
+f3 = monica -(f1+f2)
+ordenado = sorted((f1,f2,f3))
+print(ordenado[2])
